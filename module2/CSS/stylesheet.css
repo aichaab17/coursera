@@ -1,0 +1,117 @@
+*{
+	 box-sizing: border-box;
+
+}
+h1{
+text-align: center;
+font-size: 120;
+}
+.div1{
+	background-color: #6DBEFC ;
+
+	font-family: "Lucida Console", Helvetica, sans-serif;
+	border:	1px solid  black ;
+    margin: 20px ;
+  padding: 5px;
+
+}
+p{
+	font-style: italic;
+	 font-weight: bold;
+}
+#ch{
+	 
+	 background-color: #B0785D;
+	 border:1px solid  black ;
+	 width : 100px;
+	 text-align: center;
+	 height: 20px;
+	 border:1px solid  black ;
+
+}
+#su{
+	 
+	 background-color: #FF386F;
+	 border:1px solid  black ;
+	 width : 100px;
+	 text-align: center;
+	 height: 20px;
+	 border:1px solid  black ;
+
+}
+#be{
+	 
+	 background-color: #A243B0;
+	 border:1px solid  black ;
+	 width : 100px;
+	 text-align: center;
+	 height: 20px;
+	 border:1px solid  black ;
+
+
+}
+@media (min-width: 992px){
+	.div1{
+		float: left ;
+		width: 29%;
+	}
+	#be{
+	 position: relative;
+	   left: 60%;}
+	   #su{
+	 position: relative;
+	   left: 60%;}
+	   #ch{
+	 position: relative;
+	   left: 60%;}
+
+
+}
+@media  (min-width: 768px) and (max-width: 991px){
+	#Chicken{
+		float: left ;
+		width:  44%;
+	}
+	#beef{
+		float: left ;
+		width:  44%;
+	}
+	
+	#sushi{
+		float: left ;
+
+		width: 96%;
+	}
+	#ch{
+	 position: relative;
+	   left: 65%;}
+
+	#be{
+	 position: relative;
+	   left: 65%;}
+	   #su{
+	 position: relative;
+	   left: 85%;}
+	   
+
+}
+
+@media  (max-width: 767px){
+	.div1{
+		float: left ;
+		width: 96%;
+	}
+	#ch{
+	 position: relative;
+	   left: 80%;}
+
+	#be{
+	 position: relative;
+	   left: 80%;}
+	   #su{
+	 position: relative;
+	   left: 80%;}
+	   
+
+}
+
